@@ -2,7 +2,7 @@
 
 ## Description
 
-I helped scale an exsisting E-commerce app, by converting it's implementation of global state management from using the Context API to using Redux. I also created a shopping cart for the application, add offline functionality, and process secure online payments with a service called Stripe.
+I helped scale an exsisting E-Commerce app, by converting it's implementation of global state management from using the Context API to using Redux. I also created a shopping cart for the application, added offline functionality, and processed secure online payments with a service called Stripe.
 
 
 ## Built With
@@ -19,6 +19,11 @@ I helped scale an exsisting E-commerce app, by converting it's implementation of
 * React-router
 
 ## Usage 
+
+#### Website: 
+Visit the live version of E-Commerce Shop app [here](https://nameless-basin-67514.herokuapp.com/)!
+
+
 ![walkthrough video of e-commerce shop](🛍️-Shop-Shop.gif)
 
 ## Credits
