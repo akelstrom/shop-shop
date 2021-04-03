@@ -14,11 +14,12 @@ import { useDispatch, useSelector } from 'react-redux';
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 const Cart = () => {
-  // const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
   // const [state, dispatch] = useStoreContext();
   const dispatch = useDispatch();
+  const state = useSelector(state => state);
   const cartToggled = useSelector(state => state.cartOpen);
   const cartItem = useSelector(state => state.cart)
+  const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
   
   useEffect(() => {
     async function getCart() {

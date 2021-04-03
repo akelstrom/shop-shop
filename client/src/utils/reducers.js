@@ -11,7 +11,7 @@ import {
 } from "./actions";
 
 // import { useReducer } from "react";
-let initialState = {
+const initialState = {
   products: [],
   cart: [],
   cartOpen: false,
